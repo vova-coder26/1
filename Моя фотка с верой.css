@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(201, 209, 255);
+    text-align: center;
+    font-family: Gill Sans MT, sans-serif;
+}
+h1 {
+    transition: text-shadow 0.3s;
+}
+h1:hover {
+    text-shadow: 0px 0px 4px blue;
+}
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    transition: transform  0.3s ease;
+}
+img:hover {
+    transform: scale(1.1);
+}
+button {
+    width: 150px;
+    height: 30px;
+    border: solid blue;
+    border-radius: 10px;
+    background-color: lightblue;
+    transition: border 0.3s;
+}
+button:hover {
+    border: solid red;
+    background-color: wheat;
+}
